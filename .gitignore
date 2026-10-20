@@ -1,0 +1,49 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies
+node_modules
+
+# Build output
+dist
+dist-ssr
+
+# Environment & local config
+*.local
+.env
+.env.*
+!.env.example
+
+# Cache
+.cache
+.vite
+*.tsbuildinfo
+node_modules/.tmp/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS files
+Thumbs.db
+
+# Testing
+coverage
+.nyc_output
+
+# NOTE: Data pengujian yang tersimpan di localStorage tidak disertakan karena
+# bersifat lokal di browser pengguna. Jangan mengunggah data responden yang
+# dapat mengidentifikasi seseorang tanpa persetujuan eksplisit.
